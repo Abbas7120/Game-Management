@@ -117,7 +117,12 @@ CREATE TABLE IF NOT EXISTS favorites (
 );
 
 ```
+### 5. Run the Backend Server using nodemon
 
+```
+nodemon server.js
+
+```
 
 
 ##  Project Structure
