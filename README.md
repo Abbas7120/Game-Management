@@ -15,7 +15,8 @@ Built with **Node.js**, **Express**, and **PostgreSQL (Neon.tech)**.
 - **Security:** Bcrypt (Password Hashing), CORS
 
 ---
-
+### LOGIN MOCK CREDENTIALS (as we have only created frontend of Login not register )
+`{  "email": "kashif@gmail.com", "password": "987" }`
 
 ##  API Endpoints List
 
