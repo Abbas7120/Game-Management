@@ -142,4 +142,4 @@ server/
 │   ├── gameRoutes.js
 │   └── favRoutes.js
 ├── .env                 # Environment variables (GitIgnored)
-└── app.js               # Main entry point
+└── server.js               # Main entry point
