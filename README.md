@@ -1,4 +1,4 @@
-# 🏏 Sports & Casino Platform - Backend API
+#  Sports & Casino Platform - Backend API
 (Frontend will be done by EOD - 4 January 2026 )
 This is the backend server for the Sports & Casino Games Platform. It provides a RESTful API for user authentication, fetching game data with filters, and managing user favorites.
 
