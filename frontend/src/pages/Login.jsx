@@ -25,9 +25,9 @@ const Login = () => {
             <form onSubmit={handleSubmit} className="bg-[#161b22] p-8 rounded-xl border border-[#30363d] w-full max-w-md">
                 <h2 className="text-2xl font-bold text-white mb-6 text-center">Login</h2>
                 <input className="w-full mb-4 p-3 bg-[#0d1117] border border-[#30363d] rounded text-white" 
-                       placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
+                       placeholder="Email-kashif@gmail.com" value={email} onChange={e => setEmail(e.target.value)} />
                 <input className="w-full mb-6 p-3 bg-[#0d1117] border border-[#30363d] rounded text-white" 
-                       placeholder="Password" type="password" value={password} onChange={e => setPassword(e.target.value)} />
+                       placeholder="Password-987" type="password" value={password} onChange={e => setPassword(e.target.value)} />
                 <button className="w-full bg-[#238636] hover:bg-[#2ea043] text-white p-3 rounded font-bold">Sign In</button>
             </form>
         </div>
