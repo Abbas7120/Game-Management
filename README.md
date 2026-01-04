@@ -144,3 +144,123 @@ server/
 │   └── favRoutes.js
 ├── .env                 # Environment variables (GitIgnored)
 └── server.js               # Main entry point
+
+
+
+---
+
+```markdown
+#  Mini Sports & Casino Platform (Frontend)
+
+
+##  Tech Stack
+
+* **Framework:** React 18 (Vite)
+* **Styling:** Tailwind CSS
+* **Routing:** React Router DOM (v6)
+* **State Management:** React Context API
+* **HTTP Client:** Axios
+* **Icons:** Lucide React
+
+---
+
+##  Getting Started
+
+Follow these steps to set up the project locally.
+
+### 1. Prerequisites
+Make sure you have **Node.js** (v16 or higher) installed.
+
+### 2. Installation
+
+Clone the repository and navigate to the client folder:
+
+```bash
+cd client
+npm install
+
+```
+
+### 3. Environment Setup (Optional but Recommended)
+
+By default, the app connects to `http://localhost:5000/api`.
+To change this, create a `.env` file in the root of the `client` directory:
+
+```env
+VITE_API_URL=http://localhost:5000/api
+
+```
+
+*Note: If you skip this, ensure `src/services/api.js` points to your correct backend URL.*
+
+### 4. Run the App
+
+Start the development server:
+
+```bash
+npm run dev
+
+```
+
+Open your browser and navigate to `http://localhost:5173`.
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/     
+│   ├── Navbar.jsx   
+│   ├── GameCard.jsx  
+│   ├── FilterBar.jsx 
+│   
+├── context/
+│   └── AuthContext.jsx 
+├── pages/
+│   ├── Dashboard.jsx   
+│   ├── Login.jsx
+│   └── Register.jsx    
+├── services/
+│   └── api.js          
+├── App.jsx             
+└── main.jsx            
+
+```
+
+---
+
+## ✨ Key Features
+
+1. **User Authentication:**
+* Secure Login & Registration forms.
+* JWT Token handling (stored in LocalStorage).
+* Auto-redirects for unauthenticated users (Protected Routes).
+
+
+2. **Dashboard & Filtering:**
+* View all available Sports matches and Casino games.
+* **Filter System:** Instantly filter by categories like "Cricket", "Football", "Slots", etc.
+* Optimized performance: Filters do not re-fetch favorites unnecessarily.
+
+
+3. **Favorites System:**
+* **Heart Button:** Click to add/remove games from favorites.
+* **Optimistic UI:** The UI updates instantly (turns blue/filled) before the API response confirms, making the app feel incredibly fast.
+* Favorites persist across page reloads.
+
+
+
+---
+
+## 📦 Dependencies
+
+| Package | Purpose |
+| --- | --- |
+| `axios` | Handling API requests (GET, POST, DELETE) |
+| `react-router-dom` | Navigation between Login, Register, and Dashboard |
+| `lucide-react` | Beautiful, lightweight icons (Heart, Logout, etc.) |
+| `tailwindcss` | Utility-first CSS framework for styling |
+
+---
+
