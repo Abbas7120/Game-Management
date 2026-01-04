@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heart } from 'lucide-react';
 
-const GameCard = ({ game }) => {
+const GameCard = ({ game, isFavorite,onToggle}) => {
     return (
         <div className="bg-[#151b23] border border-[#30363d] rounded-xl p-6 flex flex-col justify-between hover:border-gray-500 transition-all shadow-lg text-left group">
             <div>
@@ -48,7 +48,15 @@ const GameCard = ({ game }) => {
                 <button className="flex-1 bg-[#238636] hover:bg-[#03330b] text-white font-medium py-2 rounded-md text-sm transition-colors">
                     View Details →
                 </button>
-                
+             <button 
+             onClick={()=>{onToggle(game.id)}}
+             className={`flex-1 flex items-center justify-center gap-3 bg-[#00300a] hover:bg-[#03330b] text-white font-medium py-2 rounded-md text-sm transition-colors *
+             ${
+                isFavorite?"bg-[#1f6feb] border-[#1f6feb] text-white":"bg-[#0d1117] border-[#30363d] text-gray-400 hover:text-white hover:border-gray-400"
+             }
+             `}> <Heart size={16} className={isFavorite? "fill-current":""}/>
+             {isFavorite?"Saved":"Favorite"}
+             </button>   
             </div>
         </div>
     );
