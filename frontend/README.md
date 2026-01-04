@@ -12,3 +12,8 @@
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/62667f43-4641-4da1-aefe-63d93edc742f" />
 
+
+### FAVORITES UI
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5359c838-6999-47e5-adaa-cad010f606a7" />
+
