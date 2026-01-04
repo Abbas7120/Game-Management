@@ -206,7 +206,7 @@ Open your browser and navigate to `http://localhost:5173`.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 src/
@@ -230,7 +230,7 @@ src/
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 1. **User Authentication:**
 * Secure Login & Registration forms.
@@ -253,7 +253,7 @@ src/
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 | Package | Purpose |
 | --- | --- |
